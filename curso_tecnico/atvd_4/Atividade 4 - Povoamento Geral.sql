@@ -122,11 +122,11 @@ VALUES (15,20180810,083000,122.0,'2131651-12','Cuidando de Você',5,2,12);
 
 INSERT INTO consulta (idConsulta, Data, Hora, ValorConsulta, NumeroCarteira, NomeConvenio, 
 Medico_id, Especialidade_id, Paciente_id) 
-VALUES (16,20181212,130000,150.0,'3079804-30','MediClass',2,1,13);
+VALUES (16,20181212,130000,150.0,'3079804-30','MediClass',3,2,13);
 
 INSERT INTO consulta (idConsulta, Data, Hora, ValorConsulta, NumeroCarteira, NomeConvenio, 
 Medico_id, Especialidade_id, Paciente_id) 
-VALUES (17,20190506,160000,200.0,'9386863-48','SaúdePlus',1,1,10);
+VALUES (17,20190506,160000,200.0,'9386863-48','SaúdePlus',7,3,10);
 
 INSERT INTO consulta (idConsulta, Data, Hora, ValorConsulta, NumeroCarteira, NomeConvenio, 
 Medico_id, Especialidade_id, Paciente_id) 
@@ -210,7 +210,7 @@ VALUES (2, 20151107, 20151107, 20151108,'Aplicação de pomada anti-alérgica',1
 
 INSERT INTO internacao (idInternacao, DataEntrada, DataPrevAlta, DataAlta, Procedimento,
 id_Medico, id_Paciente, id_Convenio, id_Quarto, idTipo_Quarto) 
-VALUES (3, 20151120, 20151120, 20151121,'Aplicação de pomada anti-alérgica',10,6,1,5,3);
+VALUES (3, 20151120, 20151120, 20151121,'Aplicação de pomada anti-alérgica',8,6,1,5,3);
 
 INSERT INTO internacao (idInternacao, DataEntrada, DataPrevAlta, DataAlta, Procedimento,
 id_Medico, id_Paciente, id_Convenio, id_Quarto, idTipo_Quarto) 
@@ -226,7 +226,7 @@ VALUES (6, 20190105, 20190108, 20190109,'Intubação',2,13,4,4,2);
 
 INSERT INTO internacao (idInternacao, DataEntrada, DataPrevAlta, DataAlta, Procedimento,
 id_Medico, id_Paciente, id_Convenio, id_Quarto, idTipo_Quarto) 
-VALUES (7, 20211101, 20211101, 20211102,'Diripona por intravenoso',9,15,1,5,3);
+VALUES (7, 20211101, 20211101, 20211102,'Diripona por intravenoso',6,15,1,5,3);
 
 INSERT INTO internacao_tem_enfermeiro (id_Internacao,id_Quarto,idTipo_Quarto,id_Enfermeiro) 
 VALUES (1,5,3,1);
