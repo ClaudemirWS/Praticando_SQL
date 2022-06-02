@@ -1,0 +1,17 @@
+db.funcionario.updateOne(
+{ "nome" : "Aparício Dias" },
+{ $set: { "cargo.descricao" : "Vendedor", "cargo.salario" : 2500, "cargo.comissao" : 10 } }
+)
+
+db.funcionario.updateMany(
+{ "cargo.descricao" : "Vendedor" },
+{ $set: { "cargo.salario" : 3000 } }
+)
+
+---------- RESULTADO
+{ acknowledged: true,
+  insertedId: null,
+  matchedCount: 4,
+  modifiedCount: 4,
+  upsertedCount: 0 }
+

@@ -1,0 +1,9 @@
+db.funcionario.find({"cargo.descricao" : "Gerente"})
+
+---------- RESULTADO
+{ _id: ObjectId("6298dff696abd2ef87e3d402"),
+  nome: 'Marina Frazão',
+  telefone: '99 7589-1854',
+  cpf: 21788502000,
+  cargo: { descricao: 'Gerente', salario: 5000, comissao: 0 },
+  usuario: { login: 'marinaf', senha: 'mar123' } }

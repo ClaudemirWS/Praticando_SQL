@@ -1,0 +1,126 @@
+db.funcionario.insertMany(
+[{
+nome: "Sílvio Cortês",
+telefone: "99 7898-1234",
+cpf: 84537768061,
+cargo: {
+descricao: "Vendedor",
+salario: 2500.00,
+comissao: 10,
+},
+usuario:{
+login: "silvioc",
+senha: "sil123"
+}
+},
+{
+nome: "Amaro Valadão",
+telefone: "99 7534-1234",
+cpf: 03074142057,
+cargo: {
+descricao: "Vendedor",
+salario: 2500.00,
+comissao: 10,
+},
+usuario:{
+login: "amarov",
+senha: "ama123"
+}
+},
+{
+nome: "Marcos Valadão",
+telefone: "99 7534-7897",
+cpf: 40967947081,
+cargo: {
+descricao: "Vendedor",
+salario: 2500.00,
+comissao: 10,
+},
+usuario:{
+login: "marcosv",
+senha: "mar123"
+}
+},
+{
+nome: "Domingas Souza Sá",
+telefone: "99 7534-1234",
+cpf: 51077408048,
+cargo: {
+descricao: "Supervisor de Vendas",
+salario: 2800.00,
+comissao: 10,
+},
+usuario:{
+login: "domingass",
+senha: "dom123"
+}
+},
+{
+nome: "Marina Frazão",
+telefone: "99 7589-1854",
+cpf: 21788502000,
+cargo: {
+descricao: "Gerente",
+salario: 5000.00,
+comissao: 0,
+},
+usuario:{
+login: "marinaf",
+senha: "mar123"
+}
+},
+{
+nome: "Joana Freitas",
+telefone: "99 7589-7534",
+cpf: 85690938025,
+cargo: {
+descricao: "Serviços Gerais",
+salario: 1500.00,
+comissao: 0,
+},
+usuario:{
+login: "joanaf",
+senha: "joa123"
+}
+},
+{
+nome: "Aparício Dias",
+telefone: "99 7514-7884",
+cpf: 14131448025,
+cargo: {
+descricao: "Serviços Gerais",
+salario: 1500.00,
+comissao: 0,
+},
+usuario:{
+login: "apariciod",
+senha: "apa123"
+}
+},
+{
+nome: "Filomena da Luz",
+telefone: "99 7584-7884",
+cpf: 19641782070,
+cargo: {
+descricao: "Estoquista",
+salario: 2000.00,
+comissao: 0,
+},
+usuario:{
+login: "filomenal",
+senha: "fil123"
+}
+}]
+)
+
+---------- RESULTADO
+{ acknowledged: true,
+  insertedIds: 
+   { '0': ObjectId("6298dff696abd2ef87e3d3fe"),
+     '1': ObjectId("6298dff696abd2ef87e3d3ff"),
+     '2': ObjectId("6298dff696abd2ef87e3d400"),
+     '3': ObjectId("6298dff696abd2ef87e3d401"),
+     '4': ObjectId("6298dff696abd2ef87e3d402"),
+     '5': ObjectId("6298dff696abd2ef87e3d403"),
+     '6': ObjectId("6298dff696abd2ef87e3d404"),
+     '7': ObjectId("6298dff696abd2ef87e3d405") } }

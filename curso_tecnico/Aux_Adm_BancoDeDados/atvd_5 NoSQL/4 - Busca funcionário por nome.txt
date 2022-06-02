@@ -1,0 +1,9 @@
+db.funcionario.find({nome: "Aparício Dias"})
+
+---------- RESULTADO
+{ _id: ObjectId("6298dff696abd2ef87e3d404"),
+  nome: 'Aparício Dias',
+  telefone: '99 7514-7884',
+  cpf: 14131448025,
+  cargo: { descricao: 'Vendedor', salario: 3000, comissao: 10 },
+  usuario: { login: 'apariciod', senha: 'apa123' } }
